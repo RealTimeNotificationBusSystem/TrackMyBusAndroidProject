@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\build\intermediates\pre-dexed\debug\android-support-v4-06423ff19bf705fe33ff235eada875d0304d0e4d.jar" />
+    </item>
+    <item
+        jar="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-483db5b023612e98fc737ecdd75631b73a70ef1f.jar" />
+    </item>
+    <item
+        jar="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="F:\Manohar\TrackMyBus\TrackMyBusAndroidProject\app\build\intermediates\pre-dexed\debug\gson-2.2.2-51b985f35953575ed101c7ea5fa121e67ff832cf.jar" />
+    </item>
+
+</items>
