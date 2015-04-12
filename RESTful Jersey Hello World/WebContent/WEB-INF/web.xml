@@ -26,16 +26,16 @@
   
   
   <servlet>
-    <servlet-name>Track My Bus</servlet-name>
+    <servlet-name>Bus Stop Details Service</servlet-name>
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
         <param-name>jersey.config.server.provider.packages</param-name>
-        <param-value>controller</param-value>
+        <param-value>webservice</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Track My Bus</servlet-name>
+    <servlet-name>Bus Stop Details Service</servlet-name>
     <url-pattern>/rest/*</url-pattern>
   </servlet-mapping>
   
