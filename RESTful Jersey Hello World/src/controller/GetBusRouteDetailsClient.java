@@ -6,17 +6,15 @@ import java.util.ArrayList;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 
-import model.BusStop;
-import model.BusStopDAO;
+import model.BusRoute;
+import model.BusRouteDAO;
 import model.DAOFactory;
 
 import org.glassfish.jersey.client.ClientConfig;
 
-public class GetAllBusStopDetailsClient {
+public class GetBusRouteDetailsClient {
 
 	private static final String webServiceURI = "http://localhost:8085/TrackMyBus";
 
@@ -27,7 +25,7 @@ public class GetAllBusStopDetailsClient {
 		WebTarget webTarget = client.target(serviceURI);
 
 		DAOFactory factory = new DAOFactory();
-		ArrayList<BusStop> busStopData = factory.getDetails(new BusStopDAO());
+		ArrayList<BusRoute> busRouteData = factory.getDetails(new BusRouteDAO());
 
 	}
 }

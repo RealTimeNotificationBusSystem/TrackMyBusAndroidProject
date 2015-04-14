@@ -2,22 +2,18 @@ package controller;
 
 import java.net.URI;
 import java.util.ArrayList;
-
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 
-import model.BusStop;
-import model.BusStopDAO;
+import model.BusInformation;
+import model.BusInformationDAO;
 import model.DAOFactory;
 
 import org.glassfish.jersey.client.ClientConfig;
 
-public class GetAllBusStopDetailsClient {
-
+public class GetUpdatedBusLocationDetailsClient {
 	private static final String webServiceURI = "http://localhost:8085/TrackMyBus";
 
 	public static void main(String[] args) {
@@ -27,7 +23,8 @@ public class GetAllBusStopDetailsClient {
 		WebTarget webTarget = client.target(serviceURI);
 
 		DAOFactory factory = new DAOFactory();
-		ArrayList<BusStop> busStopData = factory.getDetails(new BusStopDAO());
+		ArrayList<BusInformation> busRouteData = factory
+				.getDetails(new BusInformationDAO());
 
 	}
 }

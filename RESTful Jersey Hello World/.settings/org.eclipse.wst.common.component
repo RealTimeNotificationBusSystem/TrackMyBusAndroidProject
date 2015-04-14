@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="RESTful Jersey Hello World">
+    <wb-module deploy-name="TrackMyBus">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="RESTful_Jersey_Hello_World"/>
-        <property name="java-output-path" value="/RESTful Jersey Hello World/build/classes"/>
+        <property name="java-output-path" value="/TrackMyBus/build/classes"/>
     </wb-module>
 </project-modules>

@@ -4,10 +4,21 @@ public class BusInformation {
 	private int busId;
 	private String deviceNum;
 	private String busLocationLongitude;
-	private String bus_LocationLatitude;
+	private String busLocationLatitude;
 	private String busLastUpdate;
-	private String busRouteId;
+	private int busRouteId;
 
+	public BusInformation()
+	{}
+	
+	public BusInformation(String busLocationLongitude, String busLocationLatitude, int busId, int BRID )
+	{
+		setBusLocationLongitude(busLocationLongitude);
+		setBusLocationLatitude(busLocationLatitude);
+		setBusId(busId);
+		setBusRouteId(busRouteId);
+	}
+	
 	public int getBusId() {
 		return busId;
 	}
@@ -32,12 +43,12 @@ public class BusInformation {
 		this.busLocationLongitude = busLocationLongitude;
 	}
 
-	public String getBus_LocationLatitude() {
-		return bus_LocationLatitude;
+	public String getBusLocationLatitude() {
+		return busLocationLatitude;
 	}
 
-	public void setBus_LocationLatitude(String bus_LocationLatitude) {
-		this.bus_LocationLatitude = bus_LocationLatitude;
+	public void setBusLocationLatitude(String busLocationLatitude) {
+		this.busLocationLatitude = busLocationLatitude;
 	}
 
 	public String getBusLastUpdate() {
@@ -48,11 +59,11 @@ public class BusInformation {
 		this.busLastUpdate = busLastUpdate;
 	}
 
-	public String getBusRouteId() {
+	public int getBusRouteId() {
 		return busRouteId;
 	}
 
-	public void setBusRouteId(String busRouteId) {
+	public void setBusRouteId(int busRouteId) {
 		this.busRouteId = busRouteId;
 	}
 
